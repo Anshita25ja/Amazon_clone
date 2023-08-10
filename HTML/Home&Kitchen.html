@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Amazon.css">
+    <link rel="stylesheet" href="../CSS/Home&Kitchen.css">
+    <script src="https://kit.fontawesome.com/84cfa47576.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../Image/logo1.jpg"  type="image/x-icon">
+<link rel="shortcut icon" href="../Image/logo1.jpg" type="image/x-icon">
+    <title>Home&kitchen</title>
+</head>
+<body id="mainBody">
+    <nav class="navigation_bar">
+        <div class="Image1"><a href="Amazon.html"><img class="image1"
+            src="../Image/Amazon-Logo.png" width="100" alt=""></a> </div>
+        <div class="location" onmouseover="anshita()">
+          <p>Deliver to</p>
+          <p><i class="fa-solid fa-location-dot" style="color: #d9dbde;"></i>india</p>
+        </div>
+        <div class="search">
+          <select class="select">
+            <option>Home&Kitchen</option>
+          </select>
+          <input id="input" type="search" Value="Kitchen">
+          <span id="search_bar"><i class="fa-solid fa-magnifying-glass" style="color: #edeff3;"></i></span>
+        </div>
+        <div class="flag" onclick="ans()"><img src="../Image/flag.png" width="30px" height="30px" alt="#">
+          <select class="ind">
+            <option>IND</option>
+          </select>
+        </div>
+        <div class="sign" onmouseover="sign_in()">
+          <p>Hello,sign.in</p>
+          <p><b>Account & List</b></p>
+        </div>
+        <div class="order">
+          <a href="./Amazon_sign_in.html">
+            <p>Returns &</p>
+            <p><strong>Orders</strong></p>
+          </a>
+        </div>
+        <div class="Sign_cart">
+          <div class="Sign_In">Sign in<span><i class="fa-solid fa-angle-right" style="color: #e9ecf1;"></i></span> <i
+              class="fa-regular fa-user" style="color: #f2f2f2;"></i></div>
+          <div class="cart"><i class="fa-solid fa-cart-shopping" style="color: #ecedee;"></i><span>Cart</span> </div>
+        </div>
+      </nav>
+
+      <div class="ans">
+        <ul class="nav2">
+          <li class="ans12" onclick="bar()"><a href="#"><span ><i class="fa-solid fa-bars bar1" style="color: #f5f7f9;"></i></span>All</a></li>
+          <li class="ans12"><a href="#">Amazon miniTV</a></li>
+          <li class="ans12"><a href="#">Sell</a></li>
+          <li class="ans12"><a href="#">Amazon Pay</a></li>
+          <li class="ans12"><a href="#">Gift Cards</a></li>
+          <li class="ans12"><a href="#">Buy Again</a></li>
+        </ul>
+       
+      </div>
+      <div class="re">
+        <p>1-24 of over 80,000 results for<span>"Kitchen"</span> </p>
+        <select class="sort">
+            <option value="Featured">Sort by: Featured</option>
+        </select>
+    </div>
+    <div class="more" onclick="sign_out()">
+<ul class="information">
+    <li class="item">  <h4> More-sustainable Products</h4>
+    <li class="item">    
+<input type="checkbox" name="" id="checkbox">
+<label>Climate Pledge Friendly</label>
+</li>
+</li>
+    <li class="item"><h4>Department</h4>
+    <li class="item"><i class="fa-solid fa-angle-left"></i>Any Department</li>
+    <li class="item">Kids' Home Store</li>
+    <li class="item">
+        Kitchen & Dining</li>
+    <li class="item">Bedding</li>
+    <li class="item">Bath</li>
+    <li class="item">Furniture
+    </li>
+    <li class="item">Home Décor Products
+    </li>
+    <li class="item">Wall Art
+    </li>
+    <li class="item">Lighting & Ceiling Fans
+    </li>
+    <li class="item">Seasonal Décor
+    </li>
+    <li class="item">Event & Party Supplies
+    </li>
+    <li class="item">Heating, Cooling & Air Quality
+    </li>
+    <li class="item">Irons & Steamers
+    </li>
+    <li class="item">Vacuums & Floor Care
+    </li>
+    <li class="item">Storage & Organization
+    </li>
+    <li class="item">Cleaning Supplies
+    </li>
+<li class="item review"> <h4>Avg.Customer Review</h4>
+
+    <li class="item star">& Up</li>
+    <li class="item star">& Up</li>
+    <li class="item star">& Up</li>
+    <li class="item star">& Up</li>
+</li>
+<li class="item brands"><h4>Featured Brands</h4>
+<li class="item brands">
+    <input type="checkbox" name="" id="checkbox2">
+    <label>Amazon Basics</label>
+</li>
+<li class="item brands"><input type="checkbox" name="" id="checkbox">
+    <label>OXO</label></li>
+<li class="item brands"><input type="checkbox" name="" id="checkbox">
+    <label>Utopia Bedding
+    </label></li>
+<li class="item brands"><input type="checkbox" name="" id="checkbox">
+    <label>BEDSURE
+    </label></li>
+<li class="item brands"><input type="checkbox" name="" id="checkbox">
+    <label>Bedsure
+    </label></li>
+<li class="item brands"><input type="checkbox" name="" id="checkbox">
+    <label>Rubbermaid
+    </label></li>
+<li class="item brands"><input type="checkbox" name="" id="checkbox">
+    <label>Cuisinart
+    </label></li>
+</li>
+    <li class="item"><h4>Price</h4>
+    <li class="item">Under $25
+    </li>
+    <li class="item">$25 to $50
+    </li>
+    <li class="item">$50 to $100
+    </li>
+    <li class="item">$100 to $200
+    </li>
+    <li class="item">$200 & Above
+    </li>
+</li>
+    <li class="item price_input">
+        <p>$<input type="number" placeholder="Min" name="number" id="Min_number"></p>
+     <p>$<input type="number"placeholder="Max" name="number" id="Max_number"></p> 
+    <button class="Go">Go</button>
+    </li>
+
+    <li class="item discounts">
+        <h4>Deals & Discounts</h4>
+        <li class="item deals">All Discounts</li>
+        <li class="item deals">Today's Deals</li>
+    </li>
+    <li class="business_type">
+        <h4>Business Type</h4>
+        <li class="type"> <input type="checkbox" name="" id="checkbox3">
+            <label>Small Business</label></li>
+    </li>
+    <li class="item Augmented Reality">
+        <h4>Augmented Reality</h4>
+        <li class="item type"> 
+          <input type="checkbox" name="" id="checkbox4">
+            <label>View In Your Room</label>
+          </li>
+    </li>
+    <li class="color item">
+      <h4>Color</h4>
+  <div class="Colors1 Colors" style="background-color:red ;"></div>
+  <div class="Colors2 Colors" style="background-color:blue ;"></div>
+  <div class="Colors3 Colors" style="background-color:blueviolet ;"></div>
+  <div class="Colors4 Colors" style="background-color: yellow;"></div>
+  <div class="Colors5 Colors" style="background-color:gray ;" ></div>
+  <div class="Colors6 Colors" style="background-color: gold;"></div>
+  <div class="Colors7 Colors" style="background-color: green;"></div>
+  <div class="Colors8 Colors" style="background-color: greenyellow;"></div>
+  <div class="Colors9 Colors" style="background-color:brown ;"></div>
+  <div class="Colors10 Colors" style="background-color:aqua ;"></div>
+  <div class="Colors11 Colors" style="background-color: aquamarine;"></div>
+  <div class="Colors12 Colors" style="background-color: black;"></div>
+  <div class="Colors13 Colors" style="background-color: burlywood;"></div>
+  <div class="Colors14 Colors" style="background-color: chartreuse;"></div>
+  <div class="Colors15 Colors" style="background-color: cornflowerblue;"></div>
+  <div class="Colors16 Colors" style="background-color: palevioletred;"></div>
+  <div class="Colors17 Colors" style="background-color: purple;"></div>
+  <div class="Colors18 Colors" style="background-color: khaki;"></div>
+    </li>
+    <li class="item tabletop">
+      <h4>Tabletop Occasion</h4>
+      <li class="table_list">
+        <input type="radio" name="radio" id="checkbox">
+        <label>Anniversary</label>
+      </li>
+      <li class="table_list"><input type="radio" name="radio" id="checkbox">
+        <label>Christmas</label></li>
+      <li class="table_list"><input type="radio" name="radio" id="checkbox">
+        <label>Cinco de Mayo</label></li>
+      <li class="table_list"><input type="radio" name="radio" id="checkbox">
+        <label>Easter</label></li>
+      <li class="table_list"><input type="radio" name="radio" id="checkbox">
+        <label>Father's Day</label></li>
+      <li class="table_list"><i class="fa-solid fa-angle-down"></i>See More
+        </li>
+    </li>
+    <li class="item Dinner">
+      <h4>Dinnerware Set Number of Pieces</h4>
+      <li class="Set"><input type="radio" name="radio" id="checkbox">
+        <label>9 & under</label></li>
+      <li class=" Set"><input type="radio" name="radio" id="checkbox">
+        <label>    10-19
+        </label></li>
+      <li class="Set"><input type="radio" name="radio" id="checkbox">
+        <label>20-39</label></li>
+      <li class="Set">
+        <input type="radio" name="radio" id="checkbox">
+        <label>    40 & above</label>
+      </li>
+    </li>
+
+
+    
+    
+    
+    
+    
+   <li class="item tableware">
+    <h4>Tableware Service Count</h4>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+      <label>      Service for 1
+      </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+      <label>      Service for 2
+      </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+        <label>      Service for 4
+        </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+        <label>        Service for 5
+        </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+        <label>      Service for 6
+        </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+        <label>       Service for 8
+        </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+        <label>       Service for 10
+        </label></li>
+    <li class="count"> <input type="radio" name="radio" id="checkbox">
+        <label>       Service for 12
+        </label></li>
+    <li class="count"> 
+      <input type="radio" name="radio" id="checkbox">
+        <label>Service for 16</label></li>
+   </li>
+   <li class="item Packaging">
+    <h4>Packaging Option</h4>
+    <li class="free"><input type="radio" name="radio" id="checkbox">
+      <label>
+
+        Frustration-Free Packaging</label></li>
+   </li>
+   <li class="item arival">
+    <h4>New Arrivals</h4>
+    <li class="days">Last 30 days</li>
+    <li class="days">Last 90 days</li>
+   </li>
+  
+   
+
+
+
+
+   <li class="item tablewave">
+    <h4>Tableware Theme</h4>
+    <li class="theme"> <input type="radio" name="radio" id="checkbox">
+      <label>Animals & Insects
+      </label></li>
+    <li class="theme"> <input type="radio" name="radio" id="checkbox">
+      <label>Flowers & Plants
+      </label></li>
+    <li class="theme"> <input type="radio" name="radio" id="checkbox">
+      <label>Holiday
+      </label></li>
+    <li class="theme"> <input type="radio" name="radio" id="checkbox">
+      <label>Novelty
+      </label></li>
+   </li>
+   <li class="item Amazon">
+    <h4>Amazon Global Store
+    </h4>
+    <li class="store">  <input type="radio" name="radio" id="checkbox">
+      <label>Amazon Global Store
+      </label></li>
+   </li>
+   <li class="item condition">
+    <h4>Condition</h4>
+    <li class="c1">New</li>
+    <li class="c1">Used
+    </li>
+    <li class="item custom">
+      <h4>Customizable Products</h4>
+      <li class="product"><input type="radio" name="radio" id="checkbox">
+        <label>Customizable</label></li>
+    </li>
+
+   </li>
+   <li class="item able">
+    <h4>Availability</h4>
+    <li class="stock"><input type="radio" name="radio" id="checkbox">
+      <label>Include Out of Stock</label></li>
+  </li>
+ </ul>
+<div class="result">
+<h2 class="products product_heading">Results</h2>
+<div class="photo1 products">
+    <img src="../Image/h1.jpg" width="1100" alt=""></div>
+ 
+<div class="products">
+  <div class="img">
+  <img src="../Image/h3_.jpg" width="250" alt=""></div>
+  <div class="pro">
+  <p class="light">Sponsored</p>
+  <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+  <p class="sell">50+ bought in past  month</p>
+  <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+  <p>Ships to India</p>
+</div>
+</div>
+
+<div class="products">    <div class="img">
+
+  <img src="../Image/h4.jpg" width="250" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h5.jpg" width="250" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h6.jpg" width="250" alt=""></div>
+  <div class="pro">
+    <p class="light" >Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h7.jpg" width="250" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h8.jpg" width="200"  height="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro" >Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h9.jpg" width="240" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h10.jpg" width="220"  alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h11.jpg" width="240" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro" >Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h12.jpg" width="240" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h13.jpg" width="240" height="240" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro" >Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h14.jpg" width="200" height="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h15.jpg" width="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h16.jpg" width="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro" >Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img">
+    <img src="../Image/h17.jpg" width="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h18_.jpg" width="200" height="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img"><img src="../Image/h19.jpg" width="180" alt=""></div> 
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products"> 
+  <div class="img"><img src="../Image/h20.webp" width="240" alt=""></div> 
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+
+  <img src="../Image/h21.webp" width="240" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+<div class="products">  
+  <div class="img">
+    <img src="../Image/h22.webp" width="200" alt=""></div>
+  <div class="pro">
+    <p class="light">Sponsored</p>
+    <a href="#" class="link_pro">Lorem ipsum dolor, sit amet consectetur adipisicing  temporibus magnam cumque earum.</a>
+    <p class="sell">50+ bought in past  month</p>
+    <p class="price"><sup>$</sup><span>34</span><sup>99</sup>($17.50/Count)List:<del>$14.99</del></p>
+    <p>Ships to India</p>
+  </div>
+</div>
+
+</div>
+
+</div>
+<div class="footer">
+  <!-- block1 -->
+  <div class="block6">
+    <p class="see">See personalized recommendations</p>
+    <button class="button_sign_in">Sign in</button>
+    <p class="new">New customer?<a href="">Start here?</a></p>
+  </div>
+  <!-- block2 -->
+  <div class="back" >Back to top</div>
+  <!-- block3 -->
+
+  <div class="end">
+    <ul class="end1">
+      <li class="endd h">
+        <h3>Get to Know Us </h3>
+      </li>
+      <li class="endd"><a href="http://">About Us</a></li>
+      <li class="endd"><a href="http://">Careers </a></li>
+      <li class="endd"><a href="http://">Press Releases</a></li>
+      <li class="endd"><a href="http://">Amazon Science</a></li>
+    </ul>
+    <ul class="end1">
+      <li class="endd h">
+        <h3>Connect with Us</h3>
+      </li>
+      <li class="endd"><a href="http://">Facebook
+        </a></li>
+      <li class="endd"><a href="http://">Twitter
+        </a></li>
+      <li class="endd"><a href="http://">Instagram
+        </a></li>
+    </ul>
+    <ul class="end1 h">
+      <li class="endd">
+        <h3>Make Money with Us</h3>
+      </li>
+      <li class="endd"><a href="http://">Sell on Amazon
+        </a></li>
+      <li class="endd"><a href="http://">Sell under Amazon Accelerator
+        </a></li>
+      <li class="endd"><a href="http://">Protect and Build Your Brand
+        </a></li>
+      <li class="endd"><a href="http://">Amazon Global Selling
+        </a></li>
+      <li class="endd"><a href="http://">Become an Affiliate
+        </a></li>
+      <li class="endd"><a href="http://">Fulfilment by Amazon
+        </a></li>
+      <li class="endd"><a href="http://">Advertise Your Products
+        </a></li>
+      <li class="endd"><a href="http://">Amazon Pay on Merchants
+        </a></li>
+    </ul>
+    <ul class="end1">
+      <li class="endd">
+        <h3>
+          Let Us Help You</h3>
+      </li>
+      <li class="endd"><a href="http://">COVID-19 and Amazon
+        </a></li>
+      <li class="endd"><a href="http://">Your Account
+        </a></li>
+      <li class="endd"><a href="http://">Returns Centre
+        </a></li>
+      <li class="endd"><a href="http://">100% Purchase Protection
+        </a></li>
+      <li class="endd"><a href="http://">Amazon App Download
+        </a></li>
+      <li class="endd"><a href="http://">Help
+        </a></li>
+
+    </ul>
+  </div>
+  <!-- block4 -->
+  <!-- footer1 -->
+  <div class="divide"></div>
+  <div class="footer1">
+    <div class="footer12" onclick="ans()">
+      <img src="../Image/Amazon-Logo.png" width="100" alt="#" />
+      <div class="input_box">
+        <div class="lang"><i class="fa-solid fa-globe" style="color: #f0f2f4;"></i>
+          English</div>
+        <div class="arrow">
+          <p> <i class="fa-solid fa-caret-up" style="color: #979aa1;"></i></p>
+          <p> <i class="fa-sharp fa-solid fa-caret-down" style="color: #8b8e92;"></i></p>
+        </div>
+      </div>
+      <!-- inputbox footer12-->
+    </div>
+    <div class="footer13">
+      Australia Brazil Canada China France Germany Italy Japan Mexico Netherland Poland Singapore Spain Turkey United
+      Arab Emirates United Kingdom United States
+
+    </div>
+
+  </div>
+  <!-- footer2 -->
+  <div class="footer2">
+    <div class="footer21">
+      <div class="details"><a href="http://">
+          <p>AbeBooks</p>
+          Books, art<br>
+          & collectibles
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>Amazon Web Services</p>
+          Scalable Cloud<br>
+          Computing Services
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>Audible</p>
+          Download<br>
+          Audio Books
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>DPReview</p>
+          Digital<br>
+          Photography
+        </a></div>
+      <div class="details"><a href="http://">
+          <p> Shopbop</p>
+          Designer<br>
+          Fashion Brands
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>Amazon Business</p>
+          Everything For<br>
+          Your Business
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>Prime Now</p>
+          2-Hour Delivery<br>
+          on Everyday Items
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>Amazon Prime Music</p>
+          100 million songs, ad-free<br>
+          Over 15 million podcast episodes
+        </a></div>
+      <div class="details"><a href="http://">
+          <p>IMDb</p>
+          Movies, TV<br>
+          & Celebrities
+        </a></div>
+      <!-- footer21 -->
+
+    </div>
+
+    <div id="link">
+      <p><a href="http://"> Conditions of Use & Sale</a>
+        <a href="http://">Privacy Notice</a>
+        <a href="http://">Interest-Based Ads</a>
+      </p>
+      <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </div>
+    <!-- footer2 -->
+  </div> <!-- footer -->
+
+
+</div> <!-- section main -->
+
+</div>
+<!-- bar -->
+<div id="hello_ber">
+  <div class="Hello_sign">
+    <div class="user">
+      <i class="fa-solid fa-user" style="color: #0c0d0d;"></i>
+    </div>
+    <div class="heading">
+      <h2>Hello,sign in</h2>
+    </div>
+    <div class="cross" onclick="remove()"><i class="fa-solid fa-xmark" style="color: #f9fafb; "></i></div>
+  </div>
+  <ul class="content1">
+    <li class="content_heading">
+      <h3>Trending</h3>
+    </li>
+    <li class="content_box">Best Sellers
+    </li>
+    <li class="content_box">New Releases
+    </li>
+    <li class="content_box">Movers and Shakers
+    </li>
+    <li id="div1"></li>
+    <li class="content_heading">
+      <h3>Digital Content And Devices
+      </h3>
+    </li>
+    <li class="content_heading">
+      <h5>Amazon miniTV- FREE entertainment</h5>
+    </li>
+    <li class="content_box content_box1">
+      <p>Echo & Alexa</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Fire TV</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i>
+      </p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Kindle E-Readers & eBooks</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Audible Audiobooks</p>
+      <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Amazon Prime Video</p>
+      <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Amazon Prime Music</p>
+      <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i></p>
+    </li>
+    <li id="div1"></li>
+    <li class="content_heading">
+      <h3>Shop By Category
+      </h3>
+    </li>
+    <li class="content_box content_box1">
+      <p>Mobiles, Computers</p>
+      <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i>
+      </p>
+    </li>
+    <li class="content_box content_box1">
+      <p>TV, Appliances, Electronics</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Men's Fashion</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_box1">
+      <p>Women's Fashion</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+    </li>
+    <li class="content_box content_boxdown">See All<span><i class="fa-solid fa-angle-down"
+          style="color: #a7a7a9"></i></span>
+    </li>
+    <li id="div1"></li>
+
+    <li class="content_heading">
+      <h3>Programs & Features
+      </h3>
+    </li>
+    <li class="content_box content_box1">
+      <p>Gift Cards & Mobile Recharges</p>
+      <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9"></i></p>
+    </li>
+    <li class="content_box">Amazon Launchpad
+    </li>
+    <li class="content_box">Flight Tickets
+    </li>
+    <li class="content_box">Clearance store
+    </li>
+    <li class="content_heading">
+      <h3>Help & Settings
+      </h3>
+    </li>
+    <li class="content_box">Your Account
+    </li>
+    <li class="content_box">Customer Service
+    </li>
+    <li class="content_box">Sign in
+    </li>
+  </ul>
+
+
+
+
+
+
+</div>
+<div id="mainpage1" onclick="anshita1()">
+</div>
+<div id="mainpage" onclick="anshita1()">
+</div>
+<!-- delivery location -->
+<div id="absolute">
+  <h2>Choose your location</h2>
+
+  <p>Select a delivery location to see product availability and delivery options</p>
+  <button id="address">Sign in to see your addresses</button>
+  <div class="b1">
+    <div class="borde1"></div> <span class="c1">or enter an Indian pincode</span>
+    <div class="borde1"></div>
+
+  </div>
+  <div class="addre"> <input type="address" name="address" id="address1"><span> <button id="apply">Apply</button>
+    </span></div>
+  <div class="b2">
+    <div class="border1"></div> <span class="c1">or</span>
+    <div class="border1"></div>
+
+  </div>
+  <select id="Location">
+    <option value="Deliver outside India">Deliver outside India</option>
+    <option value="Bangladesh">
+      Bangladesh
+    </option>
+    <option value="
+ 
+    Sri Lanka">
+
+      Sri Lanka</option>
+  </select>
+</div>
+<div id="absolute_sign">
+  <div id="sign">
+    <button class="sign1"><a href="#">Sign in</a></button>
+    <p>New customer? <a href="#">Start here.</a></p>
+  </div>
+  <div class="list">
+    <div class="list1">
+      <h3>Your Lists</h3>
+      <ul>
+        <li class="links"><a href="http://">
+            Create a Wish List</a></li>
+        <li class="links"><a href="http://">Wish from Any Website
+          </a></li>
+        <li class="links"><a href="http://">Baby Wishlist
+          </a></li>
+        <li class="links"><a href="http://">Discover Your Style
+          </a></li>
+        <li class="links"><a href="http://">Explore Showroom</a></li>
+      </ul>
+    </div>
+
+    <div class="list2">
+
+      <h3>Your Account</h3>
+      <ul>
+        <li class="links"><a href="http://"> Your Account
+          </a></li>
+        <li class="links"><a href="http://"> Your Orders
+          </a></li>
+        <li class="links"><a href="http://"> Your Wish List
+          </a></li>
+        <li class="links"><a href="http://">Your Recommendations
+          </a></li>
+        <li class="links"><a href="http://"> Your Prime Membership
+          </a></li>
+        <li class="links"><a href="http://"> Your Prime Video
+          </a></li>
+        <li class="links"><a href="http://"> Your Subscribe & Save Items
+          </a></li>
+        <li class="links"><a href="http://"> Memberships & Subscriptions
+          </a></li>
+        <li class="links"><a href="http://"> Your Seller Account
+          </a></li>
+        <li class="links"><a href="http://"> Manage Your Content and <br> Devices
+          </a></li>
+        <li class="links"><a href="http://"> Your Free Amazon Business <br>Account
+          </a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+<script>
+  // bar All
+    let locate_bar = document.getElementById("mainpage1");
+    let hello= document.getElementById("hello_ber");
+    let locate = document.getElementById("absolute");
+    let locate1 = document.getElementById("mainpage");
+    let sign = document.getElementById("absolute_sign");
+
+   function bar() {
+    let mainBody = document.getElementById('mainBody');
+    hello.style.display = "block";
+    mainBody.style.overflow = "hidden";
+      locate_bar.style.display = "block";
+    
+    }
+    function remove() {
+    mainBody.style.overflow = "scroll";
+    hello.style.display = "none";
+
+    locate_bar.style.display = "none";
+
+  }
+  // deliverylocation page
+  function anshita() {
+    locate.style.display = "block";
+    locate1.style.display = "block";
+    mainBody.style.overflow = "hidden";
+
+
+  }
+  function anshita1() {
+    locate.style.display = "none";
+    locate1.style.display = "none";
+    mainBody.style.overflow = "scroll";
+
+  }
+  function sign_in() {
+
+    sign.style.display = "flex";
+
+  }
+  function sign_out() {
+    sign.style.display = "none";
+
+  }
+</script>
+</html>

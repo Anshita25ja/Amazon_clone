@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <script src="https://kit.fontawesome.com/84cfa47576.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/Amazon.css">
+  <link rel="shortcut icon" href="../Image/logo1.jpg"  type="image/x-icon">
+</head>
+
+<body id="mainBody" >
+  <!-- navigation -->
+  <nav class="navigation_bar">
+    <div class="Image1" ><a href="Amazon.html"><i class="fa-solid fa-bars bar" style="color: #edeff3;"></i><img
+          class="image1" src="../Image/Amazon-Logo.png" width="100" alt=""></a> </div>
+    <div class="location" onmouseover="anshita()">
+      <p>Deliver to</p>
+      <p><i class="fa-solid fa-location-dot" style="color: #d9dbde;"></i>india</p>
+    </div>
+    <div class="search">
+      <select class="select">
+        <option>All</option>
+      </select>
+      <input id="input" type="search" placeholder="Search Amazon">
+      <span id="search_bar"><i class="fa-solid fa-magnifying-glass" style="color: #edeff3;"></i></span>
+    </div>
+    <div class="flag" onclick="ans()"><img src="../Image/flag.png" width="30px" height="30px" alt="#">
+      <select class="ind">
+        <option>IND</option>
+      </select>
+    </div>
+    <div class="sign" onclick="sign_in()">
+      <p>Hello,sign.in</p>
+      <p><b>Account & List</b></p>
+    </div>
+    <div class="order">
+      <a href="Amazon_sign_in.html">
+        <p>Returns &</p>
+        <p><strong>Orders</strong></p>
+      </a>
+    </div>
+    <div class="Sign_cart">
+      <div class="Sign_In">Sign in<span><i class="fa-solid fa-angle-right" style="color: #e9ecf1;"></i></span> <i
+          class="fa-regular fa-user" style="color: #f2f2f2;"></i></div>
+      <div class="cart"><i class="fa-solid fa-cart-shopping" style="color: #ecedee;"></i><span>Cart</span> </div>
+    </div>
+  </nav>
+  <div class="search_768">
+    <select class="select">
+      <option>All</option>
+    </select>
+    <input id="input" type="search" placeholder="Search Amazon">
+    <span id="search_bar"><i class="fa-solid fa-magnifying-glass" style="color: #edeff3;"></i></span>
+  </div>
+  <!-- navsecond -->
+  <div class="ans">
+    <ul class="nav2">
+      <li class="ans12" onclick="bar()"><a href="#"><span><i class="fa-solid fa-bars bar1"
+              style="color: #f5f7f9;"></i></span>All</a></li>
+      <li class="ans12"><a href="#">Amazon miniTV</a></li>
+      <li class="ans12"><a href="#">Sell</a></li>
+      <li class="ans12"><a href="#">Amazon Pay</a></li>
+      <li class="ans12"><a href="#">Gift Cards</a></li>
+      <li class="ans12"><a href="#">Buy Again</a></li>
+    </ul>
+    <div class="box2"><img src="../Image/kangaroo.png" alt="" width="20px" height="20px">
+      <span><b>prime day launches</b>
+        <p> 15<sup>th</sup>-16<sup>th</sup>July</p>
+    </div>
+  </div>
+
+  <div class="location_768" onclick="deliverylocation_768()"><i class="fa-solid fa-location-dot"
+      style="color: #d9dbde;"></i><span>delivery to
+      india</span><i class="fa-solid fa-angle-down" style="color: #eaecf0;"></i></div>
+  <div id="delivery_768">
+    <h3>Choose your location
+    </h3>
+    <p>Select a delivery location to see product availability and delivery options
+    </p>
+
+    <button class="button_768">
+      Sign in to see your addresses</button>
+    <div class="part"></div>
+    <div class="lo"><i class="fa-solid fa-location-dot" style="color: #588adf;"></i>Enter an Indian pincode</div>
+    <div class="lo"><i class="fa-solid fa-location-crosshairs" style="color: #4d7fd5;"></i>Use my current location</div>
+    <div class="lo"><i class="fa-solid fa-globe" style="color: #4479d5;"></i>Deliver outside India</div>
+
+  </div>
+  <div id="mainpage3" onclick="removelocation()">
+  </div>
+  <!-- section -->
+  <div class="section_main" onclick="anshita1()" ondblclick="sign_out()">
+
+    <div class="section">
+    </div>
+    <div class="grey-768">
+      <div class="section_im768">
+        <div class="section_768">
+          <h4>Keep shopping for</h4><img src="../Image/image8.jpg" width="130" height="120" alt="#">
+        </div>
+        <div class="section_768">
+          <h4>Shops deals<br>Promotion</h4><img src="../Image/image15.jpg" width="120" height="120" alt="#">
+        </div>
+        <div class="section_768">
+          <h4>Shop'd deals in <br>Women Fashion</h4><img src="../Image/image5.jpg" width="120" height="120" alt="#">
+        </div>
+        <div class="section_768">
+          <h4>Beauty Picks</h4><img src="../Image/image20.jpg" width="120" height="120" alt="#">
+        </div>
+        <div class="section_768">
+          <h4>Shops Laptops <br> & Tablets</h4><img src="../Image/image10.jpg" width="120" height="120" alt="#">
+        </div>
+      </div>
+      <div class="contain_768">
+        <p>you are on amazon.com. You can also shop on Amazon India for millions of prodeucts with fast local
+          delivery.<br><a href="#">Click here to go to amazon.in</a>
+        </p>
+      </div>
+    </div>
+    <div class="Sign_best768">
+      <h2>Sign in for the best experience</h2>
+      <button class="Sign_in_securely">Sign in securely</button>
+      <a href="http://">Create an account</a>
+    </div>
+    <div class="hrr"></div>
+    <div class="arrows">
+    <div  class="arrow arrow1"><i class="fa-sharp fa-solid fa-angle-left"></i></div>
+    <div  class="arrow arrow2"><i class="fa-sharp fa-solid fa-angle-right"></i></div>
+  </div>
+    <div class="container">
+      <!-- block1 -->
+      <p class="click">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+        delivery. <a href="#"> Click here to go to amazon.in</a></p>
+      <!-- block2 -->
+
+      <a href="Home&Kitchen.html" class="B1">
+
+        <h2>Gaming accessories</h2>
+        <div class="box1">
+          <div class="box11">
+            <img src="../Image/image1.jpg" width="125" height="100" alt="">
+            <p>headsets</p>
+          </div>
+          <div class="box11">
+            <img src="../Image/image2_.jpg" width="125" height="100" alt="">
+            <p>keywords</p>
+          </div>
+          <div class="box11">
+            <img src="../Image/image3.jpg" width="125" height="100" alt="">
+            <p>computer mice</p>
+          </div>
+          <div class="box11">
+            <img src="../Image/image4.jpg" width="125" height="100" alt="">
+            <p>chairs</p>
+          </div>
+        </div>
+        <h4 class="Box6">Show home product</h4>
+      </a>
+      <a href="#" alt="#" target="_self" class="B1">
+        <h2>Shop deals in Fashion</h2>
+        <div class="box1">
+
+          <div class="Box11"><img src="../Image/image5.jpg" alt="" width="125" height="100">
+            <p>Jeans under $50</p>
+          </div>
+          <div class="Box11"><img src="../Image/image6.jpg" alt="" width="125" height="100">
+            <p>Tops under $25</p>
+          </div>
+          <div class="Box11"><img src="../Image/image7.jpg" alt="" width="125" height="100">
+            <p>Dresses under $30</p>
+          </div>
+          <div class="Box11"><img src="../Image/image8.jpg" alt="" width="125" height="100">
+            <p>Shoes under $50</p>
+          </div>
+        </div>
+        <h4 class="Box6">See More</h4>
+      </a>
+      <a href="#" alt="#" target="_self" class="B1">
+
+        <h2>Refresh your space</h2>
+        <div class="box1">
+
+          <div class="Box11"><img src="../Image/image9.jpg" alt="" width="125" height="100">
+            <p>Dinning</p>
+          </div>
+          <div class="Box11"><img src="../Image/image10.jpg" alt="" width="125" height="100">
+            <p>Home</p>
+          </div>
+          <div class="Box11"><img src="../Image/image11.jpg" alt="" width="125" height="100">
+            <p>Kitchen</p>
+          </div>
+          <div class="Box11"><img src="../Image/image12.jpg" alt="" width="125" height="100">
+            <p>Health and beauty</p>
+          </div>
+        </div>
+        <h4 class="Box6">See More</h4>
+      </a>
+      <div class="Sign B1">
+        <div class="sig">
+          <h2>Sign in for the best <br> experience</h2>
+          <button class="button"><a href="#">Sign in securely</a></button>
+        </div>
+
+        <img src="../Image/image13.jpg" alt="" height="210">
+
+      </div>
+      <!-- block3 -->
+      <a href="#" alt="#" target="_self" class="B1">
+        <h2>Easy updates for elevated <br>spaces</h2>
+        <div class="box1">
+
+          <div class="Box11"><img src="../Image/image17.jpg" alt="" width="125" height="100">
+            <p>Baskets and hampers</p>
+          </div>
+          <div class="Box11"><img src="../Image/image18.jpg" alt="" width="125" height="100">
+            <p>Hardware</p>
+          </div>
+          <div class="Box11"><img src="../Image/image19.jpg" alt="" width="125" height="100">
+            <p>Accent furniture</p>
+          </div>
+          <div class="Box11"><img src="../Image/image20.jpg" alt="" width="125" height="100">
+            <p>wallpaper and paint</p>
+          </div>
+        </div>
+        <h4 class="Box6">See More</h4>
+      </a>
+      <a href="#" alt="#" target="_self" class="B1 single">
+        <h2>Electronics</h2>
+        <img src="../Image/image14.jpg" alt="" width="300" height="300">
+        <h4 class="Boxss3">See More</h4>
+
+      </a>
+      <a href="#" alt="#" target="_self" class="B1">
+
+
+        <h2>Refresh your space</h2>
+        <div class="box1">
+          <div class="Box11"><img src="../Image/image22.jpg" alt="" width="125" height="110">
+            <p>Dinning</p>
+          </div>
+          <div class="Box11"><img src="../Image/image23.jpg" alt="" width="125" height="110">
+            <p>Home</p>
+          </div>
+          <div class="Box11"><img src="../Image/image24.jpg" alt="" width="125" height="110">
+            <p>Kitchen</p>
+          </div>
+          <div class="Box11"><img src="../Image/image25.jpg" alt="" width="125" height="110">
+            <p>Health and beauty</p>
+          </div>
+        </div>
+        <h4 class="Box6">See More</h4>
+      </a>
+      <a class="B1 single">
+        <h2>Health & Personal Care</h2>
+        <img src="../Image/image16.jpg" alt="" width="300" height="300">
+        <h4 class="Boxss3">See More</h4>
+      </a>
+      <!-- block4 -->
+      <a class="Box88">
+
+        <h2>Frequently repurchased in Home</h2>
+
+        <div class="Box888">
+
+          <div class="photo"><img src="../Image/image26.jpg" alt="" width="270px" height="220px"></div>
+          <div class="photo"><img src="../Image/image27.jpg" alt="" width="270px" height="220px"></div>
+          <div class="photo"><img src="../Image/image28.jpg" alt="" width="270px" height="220px"></div>
+          <div class="photo"><img src="../Image/image29.jpg" alt="" width="270px" height="220px"></div>
+          <div class="photo"><img src="../Image/image30.jpg" alt="" width="270px" height="220px"></div>
+          <div class="photo"><img src="../Image/image31.jpg" alt="" width="270px" height="220px"></div>
+          <div class="photo"><img src="../Image/image32.jpg" alt="" width="270px" height="220px"></div>
+        </div>
+      </a>
+      <!-- block 5-->
+
+      <a class="B1 single">
+
+        <h2>Health & Personal Care</h2>
+
+        <img src="../Image/image38.jpg" alt="" width="230" height="300">
+        <h4 class="Boxss3">See More</h4>
+      </a>
+      <a class="B1 single">
+        <h2>Health & Personal Care</h2>
+
+        <img src="../Image/image34.jpg" alt="" width="250" height="300">
+        <h4 class="Boxss3">See More</h4>
+      </a>
+      <a class="B1 single">
+        <h2>Health & Personal Care</h2>
+        <img src="../Image/image35.jpg" alt="" width="250" height="300">
+        <h4 class="Boxss3">See More</h4>
+      </a>
+      <a class="B1 single">
+        <h2>Health & Personal Care</h2>
+
+        <img src="../Image/image36.jpg" alt="" width="230" height="300">
+        <h4 class="Boxss3">See More</h4>
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer" >
+    <!-- block1 -->
+    <div class="block6">
+      <p class="see">See personalized recommendations</p>
+      <button class="button_sign_in" >Sign in</button>
+      <p class="new">New customer?<a href="">Start here?</a></p>
+    </div>
+    <!-- block2 -->
+    <div class="back" onclick="scrolltop()">Back to top</div>
+    <!-- block3 -->
+
+    <div class="end">
+      <ul class="end1">
+        <li class="endd h">
+          <h3>Get to Know Us </h3>
+        </li>
+        <li class="endd"><a href="http://">About Us</a></li>
+        <li class="endd"><a href="http://">Careers </a></li>
+        <li class="endd"><a href="http://">Press Releases</a></li>
+        <li class="endd"><a href="http://">Amazon Science</a></li>
+      </ul>
+      <ul class="end1">
+        <li class="endd h">
+          <h3>Connect with Us</h3>
+        </li>
+        <li class="endd"><a href="http://">Facebook
+          </a></li>
+        <li class="endd"><a href="http://">Twitter
+          </a></li>
+        <li class="endd"><a href="http://">Instagram
+          </a></li>
+      </ul>
+      <ul class="end1 h">
+        <li class="endd">
+          <h3>Make Money with Us</h3>
+        </li>
+        <li class="endd"><a href="http://">Sell on Amazon
+          </a></li>
+        <li class="endd"><a href="http://">Sell under Amazon Accelerator
+          </a></li>
+        <li class="endd"><a href="http://">Protect and Build Your Brand
+          </a></li>
+        <li class="endd"><a href="http://">Amazon Global Selling
+          </a></li>
+        <li class="endd"><a href="http://">Become an Affiliate
+          </a></li>
+        <li class="endd"><a href="http://">Fulfilment by Amazon
+          </a></li>
+        <li class="endd"><a href="http://">Advertise Your Products
+          </a></li>
+        <li class="endd"><a href="http://">Amazon Pay on Merchants
+          </a></li>
+      </ul>
+      <ul class="end1">
+        <li class="endd">
+          <h3>
+            Let Us Help You</h3>
+        </li>
+        <li class="endd"><a href="http://">COVID-19 and Amazon
+          </a></li>
+        <li class="endd"><a href="http://">Your Account
+          </a></li>
+        <li class="endd"><a href="http://">Returns Centre
+          </a></li>
+        <li class="endd"><a href="http://">100% Purchase Protection
+          </a></li>
+        <li class="endd"><a href="http://">Amazon App Download
+          </a></li>
+        <li class="endd"><a href="http://">Help
+          </a></li>
+
+      </ul>
+    </div>
+    <!-- block4 -->
+    <!-- footer1 -->
+    <div class="divide"></div>
+    <div class="footer1">
+      <div class="footer12" onclick="ans()">
+        <img src="../Image/Amazon-Logo.png" width="100" alt="#" />
+        <div class="input_box">
+          <div class="lang"><i class="fa-solid fa-globe" style="color: #f0f2f4;"></i>
+           <span id="language">Language</span></div>
+          <div class="arrow">
+            <p> <i class="fa-solid fa-caret-up" style="color: #979aa1;"></i></p>
+            <p> <i class="fa-sharp fa-solid fa-caret-down" style="color: #8b8e92;"></i></p>
+          </div>
+        </div>
+        <!-- inputbox footer12-->
+      </div>
+      <div class="footer13">
+        Australia Brazil Canada China France Germany Italy Japan Mexico Netherland Poland Singapore Spain Turkey United
+        Arab Emirates United Kingdom United States
+
+      </div>
+
+    </div>
+    <!-- footer2 -->
+    <div class="footer2">
+      <div class="footer21">
+        <div class="details"><a href="http://">
+            <p>AbeBooks</p>
+            Books, art<br>
+            & collectibles
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>Amazon Web Services</p>
+            Scalable Cloud<br>
+            Computing Services
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>Audible</p>
+            Download<br>
+            Audio Books
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>DPReview</p>
+            Digital<br>
+            Photography
+          </a></div>
+        <div class="details"><a href="http://">
+            <p> Shopbop</p>
+            Designer<br>
+            Fashion Brands
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>Amazon Business</p>
+            Everything For<br>
+            Your Business
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>Prime Now</p>
+            2-Hour Delivery<br>
+            on Everyday Items
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>Amazon Prime Music</p>
+            100 million songs, ad-free<br>
+            Over 15 million podcast episodes
+          </a></div>
+        <div class="details"><a href="http://">
+            <p>IMDb</p>
+            Movies, TV<br>
+            & Celebrities
+          </a></div>
+        <!-- footer21 -->
+
+      </div>
+
+      <div id="link">
+        <p><a href="http://"> Conditions of Use & Sale</a>
+          <a href="http://">Privacy Notice</a>
+          <a href="http://">Interest-Based Ads</a>
+        </p>
+        <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </div>
+      <!-- footer2 -->
+
+    </div> <!-- footer -->
+
+
+  </div> <!-- section main -->
+
+  <div id="absolute1">
+    <label for="english">
+      <input type="radio" id="english" name="fav_language" value="English - EN">
+      <span>English - EN
+      </span>
+    </label>
+    <br>
+    <label for="hindi">
+      <input type="radio" id="hindi" name="fav_language" value="हिन्दी - HI">
+      <span>हिन्दी - HI
+      </span> </label>
+    <br> <label for="TA">
+      <input type="radio" id="TA" name="fav_language" value="தமிழ் - TA">
+      <span>தமிழ் - TA
+
+      </span></label><br>
+    <label for="TE">
+      <input type="radio" id="TE" name="fav_language" value="తెలుగు - TE">
+      <span>తెలుగు - TE
+      </span></label><br>
+    <label for="KN">
+      <input type="radio" id="KN" name="fav_language" value="ಕನ್ನಡ - KN">
+      <span>ಕನ್ನಡ - KN
+      </span></label><br>
+    <label for="ML">
+      <input type="radio" id="ML" name="fav_language" value="മലയാളം - ML">
+      <span>മലയാളം - ML
+      </span></label><br>
+    <label for="MR">
+      <input type="radio" id="MR" name="fav_language" value="मराठी - MR">
+      <span>मराठी - MR
+
+      </span></label><br>
+    <label for="BN">
+      <input type="radio" id="BN" name="fav_language" value="বাংলা - BN">
+      <span>বাংলা - BN
+
+      </span></label><br>
+    <a href="http://">Learn more
+    </a>
+    <p>You are shopping on Amazon.in
+    </p>
+    <a href="http://">Change country/region.
+
+    </a>
+  </div>
+  <!-- delivery location -->
+  <div id="mainpage" onclick="anshita1()">
+  </div>
+  <div id="absolute">
+    <h2>Choose your location</h2>
+
+    <p>Select a delivery location to see product availability and delivery options</p>
+    <button id="address">Sign in to see your addresses</button>
+    <div class="b1">
+      <div class="borde1"></div> <span class="c1">or enter an Indian pincode</span>
+      <div class="borde1"></div>
+
+    </div>
+    <div class="addre"> <input type="address" name="address" id="address1"><span> <button id="apply">Apply</button>
+      </span></div>
+    <div class="b2">
+      <div class="border1"></div> <span class="c1">or</span>
+      <div class="border1"></div>
+
+    </div>
+    <select id="Location">
+      <option value="Deliver outside India">Deliver outside India</option>
+      <option value="Bangladesh">
+        Bangladesh
+      </option>
+      <option value="
+   
+      Sri Lanka">
+
+        Sri Lanka</option>
+    </select>
+  </div>
+  <!-- sign -->
+  <div id="absolute_sign">
+    <div id="sign">
+      <button class="sign1"><a href="#">Sign in</a></button>
+      <p>New customer? <a href="#">Start here.</a></p>
+    </div>
+    <div class="list">
+      <div class="list1">
+        <h3>Your Lists</h3>
+        <ul>
+          <li class="links"><a href="http://">
+              Create a Wish List</a></li>
+          <li class="links"><a href="http://">Wish from Any Website
+            </a></li>
+          <li class="links"><a href="http://">Baby Wishlist
+            </a></li>
+          <li class="links"><a href="http://">Discover Your Style
+            </a></li>
+          <li class="links"><a href="http://">Explore Showroom</a></li>
+        </ul>
+      </div>
+
+      <div class="list2">
+
+        <h3>Your Account</h3>
+        <ul>
+          <li class="links"><a href="http://"> Your Account
+            </a></li>
+          <li class="links"><a href="http://"> Your Orders
+            </a></li>
+          <li class="links"><a href="http://"> Your Wish List
+            </a></li>
+          <li class="links"><a href="http://">Your Recommendations
+            </a></li>
+          <li class="links"><a href="http://"> Your Prime Membership
+            </a></li>
+          <li class="links"><a href="http://"> Your Prime Video
+            </a></li>
+          <li class="links"><a href="http://"> Your Subscribe & Save Items
+            </a></li>
+          <li class="links"><a href="http://"> Memberships & Subscriptions
+            </a></li>
+          <li class="links"><a href="http://"> Your Seller Account
+            </a></li>
+          <li class="links"><a href="http://"> Manage Your Content and <br> Devices
+            </a></li>
+          <li class="links"><a href="http://"> Your Free Amazon Business <br>Account
+            </a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 768 -->
+  <div class="hhr"></div>
+  <div class="camera Explore">
+    <h2>Camera</h2>
+    <div class="Image_768">
+      <img src="../Image/camera1.jpg" width="400" height="200" alt="">
+      <h3>Beauty</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/camera2.jpg" height="200" alt="">
+      <h3>Home and kitchen</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/camera3.jpg" height="200" alt="">
+      <h3>Sports and Outdoors</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/camera4.jpg" height="200" alt="">
+
+      <h3>Electronics</h3>
+    </div>
+
+  </div>
+  <div class="keep">
+    <div class="bo"></div><span>You've reached the end. Keep exploring!
+    </span>
+    <div class="bo"></div>
+  </div>
+  <div class="Explore">
+    <h2>Explore Departments</h2>
+    <div class="Image_768">
+      <img src="../Image/e1.jpg" width="300" alt="">
+      <h3>Beauty</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/e2.jpg" width="300" alt="">
+      <h3>Home and kitchen</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/e3.jpg" width="300" alt="">
+      <h3>Sports and Outdoors</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/e4.jpg" width="300" alt="">
+
+      <h3>Electronics</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/e5.jpg" width="300" alt="">
+
+      <h3>Outdoor Clothing</h3>
+    </div>
+    <div class="Image_768">
+      <img src="../Image/gallery2.jpg" width="300" height="120" alt="">
+
+      <h3>Pet Supplies</h3>
+    </div>
+
+  </div>
+  <div class="footer_768">
+    <div class="footer1_768">
+      <i class="fa-solid fa-angle-up" style="color: #efeff1;"></i>
+      <h5>TOP OF PAGE</h5>
+    </div>
+    <div class="footer2_768">
+      <ul class="footer_list">
+        <li class="List1">Amazon.com</li>
+        <li class="List1">Your Lists</li>
+        <li class="List1">Find a Gift </li>
+        <li class="List1">Browsing History</li>
+        <li class="List1">Returns</li>
+      </ul>
+
+      <ul class="footer_list">
+        <li class="List1"> Your Orders
+        </li>
+        <li class="List1">Gift Cards & Registry
+        </li>
+        <li class="List1">Your Account
+        </li>
+        <li class="List1">Sell products on Amazon
+        </li>
+        <li class="List1">Your Recalls and Product Safety Alerts
+        </li>
+        <li class="List1">Customer Service
+        </li>
+      </ul>
+    </div>
+    <div class="footer3_768">
+      <ul class="info">
+        <li class="info1"><i class="fa-solid fa-globe" style="color: #f1f2f3;"></i><span>English</span></li>
+        <li class="info1"><i class="fa-solid fa-dollar-sign" style="color: #ffffff;"></i><span>USD - U.S. Dollar</span>
+        </li>
+        <li class="info1"><img src="../Image/flag.png" width="30px" alt=""><span>United States</span></li>
+      </ul>
+      <p class="customer_sign">Aleady a customer? Sign in</p>
+      <div class="con">
+        <p>
+          Conditions of Use Privacy Notice Your Ads Privacy Choices</p>
+        <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </div>
+  </div>
+  <!-- HEllo -->
+  <div id="mainpage1" onclick="anshita1()">
+  </div>
+  <div id="hello_ber">
+    <div class="Hello_sign">
+      <div class="user">
+        <i class="fa-solid fa-user" style="color: #0c0d0d;"></i>
+      </div>
+      <div class="heading">
+        <h2>Hello,sign in</h2>
+      </div>
+      <div class="cross" onclick="remove()"><i class="fa-solid fa-xmark" style="color: #726e6d; "></i></div>
+    </div>
+    <ul class="content1">
+      <li class="content_heading">
+        <h3>Trending</h3>
+      </li>
+      <li class="content_box">Best Sellers
+      </li>
+      <li class="content_box">New Releases
+      </li>
+      <li class="content_box">Movers and Shakers
+      </li>
+      <li id="div1"></li>
+      <li class="content_heading">
+        <h3>Digital Content And Devices
+        </h3>
+      </li>
+      <li class="content_heading">
+        <h5>Amazon miniTV- FREE entertainment</h5>
+      </li>
+      <li class="content_box content_box1">
+        <p>Echo & Alexa</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Fire TV</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i>
+        </p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Kindle E-Readers & eBooks</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Audible Audiobooks</p>
+        <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Amazon Prime Video</p>
+        <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Amazon Prime Music</p>
+        <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i></p>
+      </li>
+      <li id="div1"></li>
+      <li class="content_heading">
+        <h3>Shop By Category
+        </h3>
+      </li>
+      <li class="content_box content_box1">
+        <p>Mobiles, Computers</p>
+        <p><i class="fa-solid fa-angle-right" style="color:#a7a7a9;"></i>
+        </p>
+      </li>
+      <li class="content_box content_box1">
+        <p>TV, Appliances, Electronics</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Men's Fashion</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_box1">
+        <p>Women's Fashion</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9;"></i></p>
+      </li>
+      <li class="content_box content_boxdown">See All<span><i class="fa-solid fa-angle-down"
+            style="color: #a7a7a9"></i></span>
+      </li>
+      <li id="div1"></li>
+
+      <li class="content_heading">
+        <h3>Programs & Features
+        </h3>
+      </li>
+      <li class="content_box content_box1">
+        <p>Gift Cards & Mobile Recharges</p>
+        <p><i class="fa-solid fa-angle-right" style="color: #a7a7a9"></i></p>
+      </li>
+      <li class="content_box">Amazon Launchpad
+      </li>
+      <li class="content_box">Flight Tickets
+      </li>
+      <li class="content_box">Clearance store
+      </li>
+      <li class="content_heading">
+        <h3>Help & Settings
+        </h3>
+      </li>
+      <li class="content_box">Your Account
+      </li>
+      <li class="content_box">Customer Service
+      </li>
+      <li class="content_box">Sign in
+      </li>
+    </ul>
+
+
+
+
+
+
+  </div>
+
+</body>
+
+
+
+
+
+<script>
+  let loction_768 = document.getElementById("delivery_768");
+  let locate3 = document.getElementById("mainpage3");
+  // deliveryloction768
+  function deliverylocation_768() {
+    loction_768.style.display = "flex";
+    locate3.style.display = "block";
+    mainBody.style.overflow = "hidden";
+
+  }
+  function removelocation() {
+    loction_768.style.display = "none";
+    mainBody.style.overflow = "scroll";
+
+    locate3.style.display = "none";
+
+  }
+  let hello= document.getElementById("hello_ber");
+// bar
+  function bar() {
+    let mainBody = document.getElementById('mainBody');
+    hello.style.display = "block";
+    mainBody.style.overflow = "hidden";
+      locate_bar.style.display = "block";
+    
+    }
+    function remove() {
+    mainBody.style.overflow = "scroll";
+    hello.style.display = "none";
+
+    locate_bar.style.display = "none";
+
+  }
+  let locate = document.getElementById("absolute");
+  let locate_bar = document.getElementById("mainpage1");
+
+  let locate1 = document.getElementById("mainpage");
+  // delivery location
+  function anshita() {
+    locate.style.display = "block";
+    locate1.style.display = "block";
+
+
+  }
+  function anshita1() {
+    locate.style.display = "none";
+    locate1.style.display = "none";
+
+  }
+  //language
+  let language = document.getElementById("absolute1");
+  let check_language=document.getElementsByName("fav_language");
+let change=document.getElementById("language");
+  function ans() {
+   
+    if (language.style.display == "none") {
+      language.style.display = "block";
+     
+    }
+    else {
+      language.style.display = "none";
+      check_language.forEach(element => {
+      if(element.checked){
+        console.log(element);
+      change.innerText=element.value;
+      console.log(change.innerHtml);
+}
+    });
+    }
+  }
+
+//
+  let sign = document.getElementById("absolute_sign");
+  function sign_in() {
+
+    sign.style.display = "flex";
+
+  }
+  function sign_out() {
+    sign.style.display = "none";
+
+  }
+//
+let arrows=document.querySelectorAll(".arrow");
+let background_change=document.querySelector(".section");
+let index=0;
+let array=["background","image_768","image2_768","image1_768","image_768"]
+console.log(array.length);
+arrows.forEach(element => {
+  console.log(element)
+
+  element.addEventListener("click",function() {
+
+ if(element.classList.contains("arrow1")){
+
+  if(index>=array.length){
+    index=1;
+  }
+  else{
+  index++;}
+  console.log(index);
+  background_change.style.background=`url(../Image/${array[index-1]}.jpg) no-repeat center center/cover`;
+background_change.style.zIndex="-1";
+
+  }
+  else if(element.classList.contains("arrow2")){
+
+if(index==0){
+  index=array.length-1;
+}
+else{
+index--;}
+console.log(index);
+background_change.style.background=`url(../Image/${array[index]}.jpg) no-repeat center center/cover`;
+background_change.style.zIndex="-1";
+
+}
+
+
+})
+});
+function scrolltop(){
+window.scrollTo(0,0);
+};
+
+</script>
+
+</html>
